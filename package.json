@@ -1,0 +1,38 @@
+{
+  "name": "dynamic-breadcrumb-react",
+  "version": "1.0.0",
+  "description": "react router dynamic breadcrumbs module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "node_modules/.bin/babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyCoder48/dynamic-breadcrumb-react.git"
+  },
+  "keywords": [
+    "dynamic-breadcrumbs",
+    "dynamic-breadcrumb-react",
+    "breadcrumbs"
+  ],
+  "author": "Ajitesh Newnaha <ajitesh.newnaha@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazyCoder48/dynamic-breadcrumb-react/issues"
+  },
+  "homepage": "https://github.com/LazyCoder48/dynamic-breadcrumb-react#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10"    
+  },
+  "peerDependencies": {
+    "react": "^15.6.1",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
